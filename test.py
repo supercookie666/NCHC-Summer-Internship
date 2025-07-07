@@ -1,1 +1,1 @@
-print("耶 我創建一個'githun了")
+print("耶 我創建一個github了")
