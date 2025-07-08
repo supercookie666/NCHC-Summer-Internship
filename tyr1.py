@@ -9,6 +9,7 @@ class SimpleNet(nn.Module):
         self.fc1 = nn.Linear(10, 50)  # 輸入層：10維 → 隱藏層：50維
         self.relu = nn.ReLU()
         self.fc2 = nn.Linear(50, 1)   # 隱藏層：50維 → 輸出層：1維（回歸）
+        ### test only
 
     def forward(self, x):
         x = self.fc1(x)
